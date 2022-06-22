@@ -17,7 +17,8 @@ public class Table {
 	    //WebElement Stock =  driver.findElement(By.xpath("//table//tbody//tr[14]//td[4]"));
 	    WebElement stock= driver.findElement(By.xpath("//table//tbody//tr[2]//td[4]"));
 		String name = stock.getText();
-		System.out.println(name); 		
+		System.out.println(name); 
+		System.out.print("aabhi ho jane chaliye");
 		
 	}
 }
